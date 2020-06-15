@@ -23,4 +23,4 @@ with sqlite3.connect(source) as conn:
     print(df)
 
 
-conn.execute('SELECT * from main_project').fetchall()
+conn.execute('SELECT * from main_project').fetchall():
